@@ -1,36 +1,127 @@
 {
   "version": "2.0",
-  "dataset_id": "on006018",
-  "source": "openneuro",
-  "source_id": "ds006018",
+  "pipeline_stage": "enriched",
   "title": "Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Elif Isbell": {},
+    "Elif Isbell": {
+      "orcid": "0000-0002-4928-2438"
+    },
     "Amanda N. Peters": {},
     "Dylan M. Richardson": {},
     "Nancy E. R. De León": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006018.v1.2.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006018",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006018",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-025-05209-z",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1371/journal.pone.0307406",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.17605/osf.io/43H75",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "Research start-up funds awarded to Elif Isbell by University of California Merced."
+    },
+    {
+      "funder_name": "University of California Merced",
+      "award_title": "Research start-up funds"
     }
   ],
-  "acknowledgements": "We thank Isbell Development, Experiences, and Achievement (IDEA) lab research assistants for their contributions to data collection, and the adults who participated in the study."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises electroencephalogram (EEG) recordings from 127 young adults (18-30 years) collected using standardized cognitive tasks from the ERP CORE battery. The dataset integrates neurophysiological measurements with comprehensive socioeconomic indicators spanning childhood and adulthood, including family SES, educational attainment, income, food security, and neighborhood characteristics. Additionally, ADHD symptom screening data are included to enable investigation of neurocognitive correlates across socioeconomically diverse populations.",
+  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with a 32-channel actiCAP slim active electrode system mounted according to the international 10/20 system, sampled at 500 Hz and referenced to Cz. Horizontal and vertical electrooculogram (EOG) electrodes were placed to capture eye artifacts. Stimuli were presented with approximately 20 ms delay for both visual and auditory modalities. Cognitive tasks were directly acquired from or adapted from the ERP CORE battery, optimized to capture neural activity during perception, cognition, and action.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "socioeconomic status"
+    },
+    {
+      "term": "SES"
+    },
+    {
+      "term": "cognitive electrophysiology"
+    },
+    {
+      "term": "ADHD symptoms"
+    },
+    {
+      "term": "young adults"
+    },
+    {
+      "term": "ERP CORE"
+    },
+    {
+      "term": "socioeconomic disparities"
+    },
+    {
+      "term": "childhood socioeconomic status"
+    },
+    {
+      "term": "food security"
+    },
+    {
+      "term": "neighborhood characteristics"
+    },
+    {
+      "term": "Brain Products actiCHamp"
+    },
+    {
+      "term": "10/20 electrode system"
+    },
+    {
+      "term": "500 Hz sampling"
+    }
+  ],
+  "source_hash": "702a0319075471caa8d22ef9f6b464f0b2fdc39c0e27b7a78184e13bfff4f824"
 }
