@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset",
+  "description": "This dataset comprises electroencephalogram (EEG) recordings from 127 young adults (18-30 years) collected using standardized event-related potential tasks from the ERP CORE protocol. The dataset integrates neurophysiological measures with comprehensive socioeconomic indicators spanning childhood and adulthood, including family SES, educational attainment, income, food security, and neighborhood characteristics. Additionally, ADHD symptom screening data are included to enable investigation of neurocognitive correlates across socioeconomically diverse populations.",
+  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with a 32-channel actiCAP slim active electrode system mounted according to the international 10/20 system, sampled at 500 Hz and referenced to Cz. Horizontal and vertical electrooculogram (EOG) electrodes were placed to capture eye artifacts. Stimuli were presented with approximately 20 ms delay for both visual and auditory modalities. Experimental tasks were directly acquired from or adapted from the ERP CORE protocol.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,27 @@
     "Dylan M. Richardson": {},
     "Nancy E. R. De León": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006018.v1.2.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "socioeconomic status"
+    },
+    {
+      "term": "cognitive electrophysiology"
+    },
+    {
+      "term": "ADHD symptoms"
+    },
+    {
+      "term": "young adults"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006018",
       "identifier_type": "URL",
@@ -47,6 +64,11 @@
       "identifier": "10.17605/osf.io/43H75",
       "identifier_type": "DOI",
       "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006018.v1.2.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -59,12 +81,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.4 GB (1072 files)"
   ],
   "formats": [
     ".eeg",
@@ -72,56 +94,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises electroencephalogram (EEG) recordings from 127 young adults (18-30 years) collected using standardized cognitive tasks from the ERP CORE battery. The dataset integrates neurophysiological measurements with comprehensive socioeconomic indicators spanning childhood and adulthood, including family SES, educational attainment, income, food security, and neighborhood characteristics. Additionally, ADHD symptom screening data are included to enable investigation of neurocognitive correlates across socioeconomically diverse populations.",
-  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with a 32-channel actiCAP slim active electrode system mounted according to the international 10/20 system, sampled at 500 Hz and referenced to Cz. Horizontal and vertical electrooculogram (EOG) electrodes were placed to capture eye artifacts. Stimuli were presented with approximately 20 ms delay for both visual and auditory modalities. Cognitive tasks were directly acquired from or adapted from the ERP CORE battery, optimized to capture neural activity during perception, cognition, and action.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "socioeconomic status"
-    },
-    {
-      "term": "SES"
-    },
-    {
-      "term": "cognitive electrophysiology"
-    },
-    {
-      "term": "ADHD symptoms"
-    },
-    {
-      "term": "young adults"
-    },
-    {
-      "term": "ERP CORE"
-    },
-    {
-      "term": "socioeconomic disparities"
-    },
-    {
-      "term": "childhood socioeconomic status"
-    },
-    {
-      "term": "food security"
-    },
-    {
-      "term": "neighborhood characteristics"
-    },
-    {
-      "term": "Brain Products actiCHamp"
-    },
-    {
-      "term": "10/20 electrode system"
-    },
-    {
-      "term": "500 Hz sampling"
-    }
-  ],
-  "source_hash": "702a0319075471caa8d22ef9f6b464f0b2fdc39c0e27b7a78184e13bfff4f824"
+  "source_hash": "0f31d13bb3c90ae0576f4d028eb48fece62becb0cac5afa3b85a45b89a14a28e"
 }
