@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset",
   "description": "This dataset comprises electroencephalogram (EEG) recordings from 127 young adults (18-30 years) collected using standardized event-related potential tasks from the ERP CORE protocol. The dataset integrates neurophysiological measures with comprehensive socioeconomic indicators spanning childhood and adulthood, including family SES, educational attainment, income, food security, and neighborhood characteristics. Additionally, ADHD symptom screening data are included to enable investigation of neurocognitive correlates across socioeconomically diverse populations.",
-  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with a 32-channel actiCAP slim active electrode system mounted according to the international 10/20 system, sampled at 500 Hz and referenced to Cz. Horizontal and vertical electrooculogram (EOG) electrodes were placed to capture eye artifacts. Stimuli were presented with approximately 20 ms delay for both visual and auditory modalities. Experimental tasks were directly acquired from or adapted from the ERP CORE protocol.",
+  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with a 32-channel actiCAP slim active electrode system mounted according to the international 10/20 system, sampled at 500 Hz and referenced to Cz. Electrooculogram (EOG) was recorded from three electrodes (horizontal and vertical) to capture eye artifacts. Two mastoid electrodes were repurposed for re-referencing. Stimuli were presented with approximately 20 ms delay for both visual and auditory modalities. Experimental tasks were directly acquired from or adapted from the ERP CORE protocol.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,10 +22,16 @@
       "term": "event-related potentials"
     },
     {
+      "term": "ERP CORE"
+    },
+    {
       "term": "socioeconomic status"
     },
     {
       "term": "cognitive electrophysiology"
+    },
+    {
+      "term": "neurocognitive"
     },
     {
       "term": "ADHD symptoms"
