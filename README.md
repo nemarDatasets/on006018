@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006018-blue)](https://doi.org/10.82901/nemar.on006018)
+
 ## The Cognitive Electrophysiology in Socioeconomic Context in Adulthood Dataset
 
 # Data Description
