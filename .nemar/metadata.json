@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cognitive Electrophysiology in Socioeconomic Context in Adulthood: An EEG dataset",
-  "description": "This dataset comprises electroencephalogram (EEG) recordings from 127 young adults (18-30 years) collected using standardized event-related potential tasks from the ERP CORE protocol. The dataset integrates neurophysiological measures with comprehensive socioeconomic indicators spanning childhood and adulthood, including family SES, educational attainment, income, food security, and neighborhood characteristics. Additionally, ADHD symptom screening data are included to enable investigation of neurocognitive correlates across socioeconomically diverse populations.",
-  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with a 32-channel actiCAP slim active electrode system mounted according to the international 10/20 system, sampled at 500 Hz and referenced to Cz. Electrooculogram (EOG) was recorded from three electrodes (horizontal and vertical) to capture eye artifacts. Two mastoid electrodes were repurposed for re-referencing. Stimuli were presented with approximately 20 ms delay for both visual and auditory modalities. Experimental tasks were directly acquired from or adapted from the ERP CORE protocol.",
+  "description": "This dataset comprises EEG recordings from 127 young adults (18-30 years) collected to investigate links between childhood and adulthood socioeconomic status (SES) and cognitive electrophysiology. EEG tasks were derived from the ERP CORE resource and adapted to capture neural activity related to perception, cognition, and action. The dataset also includes retrospective and current SES indicators, and an ADHD symptoms checklist, enabling investigation of relationships between socioeconomic diversity, ADHD symptoms, and neural activity.",
+  "methods_description": "EEG data were recorded using a Brain Products actiCHamp Plus system with BrainVision Recorder (v1.25.0101) and a 32-channel actiCAP slim active electrode system mounted per the international 10/20 system. The ground electrode was placed at FPz, two electrodes were repurposed for mastoid referencing, and three electrodes recorded EOG (horizontal and vertical). Data were sampled at 500 Hz and referenced to Cz. StimTrak was used to assess stimulus presentation delays (~20 ms) for visual and auditory stimuli.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,25 +19,31 @@
       "term": "EEG"
     },
     {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Low Socioeconomic Status",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000092886"
+    },
+    {
       "term": "event-related potentials"
     },
     {
-      "term": "ERP CORE"
+      "term": "Attention Deficit Disorder with Hyperactivity",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001289"
     },
     {
-      "term": "socioeconomic status"
+      "term": "Cognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
     },
     {
-      "term": "cognitive electrophysiology"
-    },
-    {
-      "term": "neurocognitive"
-    },
-    {
-      "term": "ADHD symptoms"
-    },
-    {
-      "term": "young adults"
+      "term": "adulthood"
     }
   ],
   "related_identifiers": [
@@ -57,16 +63,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.1371/journal.pone.0307406",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.neuroimage.2020.117465",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
       "identifier": "10.17605/osf.io/43H75",
       "identifier_type": "DOI",
       "relation_type": "IsSupplementedBy"
@@ -83,7 +79,7 @@
     },
     {
       "funder_name": "University of California Merced",
-      "award_title": "Research start-up funds"
+      "award_title": "Research start-up funds awarded to Elif Isbell"
     }
   ],
   "resource_type_general": "Dataset",
